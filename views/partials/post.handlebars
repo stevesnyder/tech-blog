@@ -1,0 +1,11 @@
+<div id="post">
+    <div id="postheader">
+        <a id="postTitle" href="/blogpost/{{id}}">{{title}}</a>
+        {{!-- The following may be total crap --}}
+        <p>Posted by {{user.username}} on {{format_date createdAt}}</p>
+    </div>
+    <br><br>
+    <section>
+        <p id="postContent">{{text}}</p>
+    </section>
+</div>
